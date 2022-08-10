@@ -2,6 +2,8 @@ import { Component } from 'react';
 import PropTypes from 'prop-types';
 import '../css/styles.css';
 
+import { BiSearch } from "@react-icons/all-files/bi/BiSearch";
+
 export default class Searchbar extends Component {
         
     static propTypes = {
@@ -34,7 +36,7 @@ export default class Searchbar extends Component {
             <header className="Searchbar">
                 <form className="SearchForm" onSubmit={onSubmit}>
                     <button type="submit" className="SearchForm-button">
-                        {/* <span className="SearchForm-button-label"></span> */}
+                            <BiSearch className='SearchIcon' />
                     </button>
                     <input
                     className="SearchForm-input"
