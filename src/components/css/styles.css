@@ -68,7 +68,7 @@ img {
   max-width: 600px;
   background-color: #fff;
   border: 2px solid rgb(0, 0, 0);
-  border-radius: 3px;
+  border-radius: 10px;
   overflow: hidden;
 }
 
@@ -90,7 +90,7 @@ img {
 }
 
 .SearchForm-button:hover {
-  opacity: 1;
+  background-color: rgba(0, 179, 255, 0.46);
 }
 
 .SearchForm-input {
